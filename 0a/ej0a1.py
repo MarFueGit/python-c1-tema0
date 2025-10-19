@@ -40,12 +40,14 @@ Exemple:
 """
 
 def check_age(age):
-    #write your code
-    pass
-    
+  if age >= 18:
+    return True
+  else:
+    return False
+
   
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
-# print(check_age(15))
-# print(check_age(17))
-# print(check_age(18))
+#print(check_age(15))
+#print(check_age(17))
+#print(check_age(18))
